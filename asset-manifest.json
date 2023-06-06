@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Mapka/static/css/main.4bdff7f4.css",
+    "main.js": "/Mapka/static/js/main.825fc0a2.js",
+    "static/js/787.fb45545f.chunk.js": "/Mapka/static/js/787.fb45545f.chunk.js",
+    "static/media/MapaPolski.png": "/Mapka/static/media/MapaPolski.8e5e7fcfab2399589361.png",
+    "index.html": "/Mapka/index.html",
+    "main.4bdff7f4.css.map": "/Mapka/static/css/main.4bdff7f4.css.map",
+    "main.825fc0a2.js.map": "/Mapka/static/js/main.825fc0a2.js.map",
+    "787.fb45545f.chunk.js.map": "/Mapka/static/js/787.fb45545f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bdff7f4.css",
+    "static/js/main.825fc0a2.js"
+  ]
+}
