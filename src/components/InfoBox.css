@@ -1,0 +1,59 @@
+.info-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e8f2f8;
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  opacity: 0;
+  font-size: 15px;
+  color: black;
+}
+.info-box__title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: deepskyblue;
+}
+.info-box__capital {
+  margin-bottom: 3px;
+}
+.info-box__area, .info-box__population {
+  font-style: italic;
+}
+
+.info-box.active {
+  animation: showInfoBox 0.8s forwards;
+}
+
+@keyframes showInfoBox {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 500px) {
+  .info-box {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400px) {
+  .info-box {
+    font-size: 12px;
+    padding: 0 40px;
+  }
+}
+@media (max-width: 300px) {
+  .info-box {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=InfoBox.css.map */
